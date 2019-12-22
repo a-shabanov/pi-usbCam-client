@@ -1,0 +1,10 @@
+<html lang="en">
+<body>
+Hello
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.slim.js"/>
+<script>
+    const socket = io.connect('http://192.168.0.26:3000');
+    socket.on('image', console.debug);
+</script>
+</body>
+</html>
