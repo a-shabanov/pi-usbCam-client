@@ -1,0 +1,14 @@
+FROM justadudewhohacks/opencv-nodejs:node12-opencv4.1.0
+
+WORKDIR /app
+
+COPY ./package.json /app/package.json
+RUN npm install
+
+COPY ./src /app/src
+
+ENV NODE_PATH=/usr/lib/node_modules
+
+CMD npm start
+
+

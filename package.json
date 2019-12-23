@@ -1,9 +1,11 @@
 {
-  "name": "webc-streaming",
+  "name": "pi-usbcam-client",
   "author": "Nexcella Team <it@nexcella.com>",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
   "dependencies": {
     "express": "4.17.1",
-    "opencv4nodejs": "5.3.0",
     "socket.io": "2.3.0"
   }
 }

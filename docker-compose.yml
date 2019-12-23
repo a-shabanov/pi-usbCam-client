@@ -1,0 +1,11 @@
+version: '3'
+services:
+  client:
+    build:
+      dockerfile: Dockerfile.dev
+      context: .
+    volumes:
+    - "./src:/app/src"
+    ports:
+    - "3000:3000"
+
