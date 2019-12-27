@@ -1,2 +1,4 @@
- ./build.sh 4.1.0 n 12
+##Docker build
+
+./build.sh 4.1.0 n 12
 
